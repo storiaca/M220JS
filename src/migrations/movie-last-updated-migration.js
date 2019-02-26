@@ -17,7 +17,7 @@ const MongoError = require("mongodb").MongoError
 ;(async () => {
   try {
     // ensure you update your host information below!
-    const host = "mongodb://<your atlas connection uri from your .env file"
+    const host = "mongodb+srv://m220student:m220password@mflix-mavhe.mongodb.net/mflix"
     const client = await MongoClient.connect(
       host,
       { useNewUrlParser: true },
